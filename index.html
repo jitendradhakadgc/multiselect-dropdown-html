@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Select with Select All</title>
+	    <script src="multiselect-dropdown.js"></script>
+</head>
+<style>
+.multiselect-dropdown{
+    width: 100% !important;
+}
+</style>
+<body>
+    <h2>Select Impact on Self Care</h2>
+    <form action="submit.php"  method="post">
+        <select multiple multiselect-search="true" multiselect-select-all="true" name="cars" id="cars">
+			<option value="volvo">Volvo</option>
+			<option value="saab">Saab</option>
+			<option value="opel">Opel</option>
+			<option value="audi">Audi</option>
+	</select>
+        <button type="submit">Submit</button>
+    </form>
+
+
+</body>
+</html>
